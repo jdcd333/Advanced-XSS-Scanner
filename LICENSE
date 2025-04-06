@@ -19,3 +19,31 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+**requirements.txt**:
+requests==2.31.0
+tqdm==4.66.1
+beautifulsoup4==4.12.2
+**.gitignore**:
+subdomains.txt
+xss_clear_report.txt
+xss_report.txt
+pycache/
+*.pyc
+.env
+**Recommended Files**:
+1. `payloads/` directory with different XSS payload files
+2. `samples/subdomains.txt.sample` (example input)
+3. `samples/report_sample.txt` (example output)
+
+**Additional Recommendations**:
+- Add argument parsing (argparse) for better CLI control
+- Include DOM-based XSS detection
+- Add color to console output for better visibility
+- Implement CSV/JSON report formats
+- Add proxy support for scanning
+
+**Security Considerations**:
+- Clearly state this is for ethical hacking only
+- Recommend running in controlled environments
+- Include a disclaimer about legal use
